@@ -23,7 +23,7 @@ email: kelsonjensen@email.com
 description: "A blog about data, stats, and things that interest me." 
 baseurl: "My-Blog/" # the name of the repository 
 url: "https://kelsjens.github.io" #  change this to "https://<your-github-username>.github.io"
-image: /assets/images/headerimg.jpg
+image: assets/images/blog-background.jpg
 author: Kelson Jensen
 copyright: KJ # Your initials or name or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
