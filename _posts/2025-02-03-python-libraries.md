@@ -5,7 +5,7 @@ author: Kelson Jensen
 description: Short yet informative description
 image: /assets/images/blog-image.jpg
 ---
-
+## _Introduction_
 Need a place to start your data science toolbox? Python is one of the best tools for working with data, but to really make the most of it, you need the right libraries. Three must-haves in any data scientist’s toolbox are pandas, numpy, and matplotlib. These libraries make it easy to clean and analyze data, run fast numerical calculations, and create visualizations that actually make sense. Whether you're sorting through messy datasets, crunching numbers, or bringing data to life with charts, these tools have you covered. In this post, we’ll break down what they do, why they’re useful, and how you can start using them right away. Lets get to it!
 
 # _Pandas: A data analyzation and manipulation library_
@@ -79,44 +79,47 @@ We will look over step by step how to create a simple plot and basic functions t
 To get started, first import Matplotlib:
 import matplotlib.pyplot as plt
 Then, create a simple line plot:
+```python 
 x = [1, 2, 3, 4, 5]
 y = [1, 4, 9, 16, 25]
 plt.plot(x, y)
 plt.show()
+```
 
 This generates a basic line chart, ideal for showing relationships between two variables.
 
 ### _Customizing Your Plot_
 Once you’ve created a basic plot, you can easily customize it:
-
-Add a title and labels:
+```python
+# Add a title and labels: 
 plt.title("Basic Line Plot")
 plt.xlabel("X values")
 plt.ylabel("Y values")
 plt.show()
 
-Change line style and color:
+# Change line style and color:
 plt.plot(x, y, linestyle='--', color='r')
 
-Add gridlines:
+# Add gridlines:
 plt.grid(True)
 plt.show()
+```
 
 ### _Creating Other Types of Plots_
 Matplotlib supports a variety of plot types, including:
-
-Scatter plot:
+```python
+# Scatter plot:
 plt.scatter(x, y)
 plt.show()
 
-Bar chart:
+# Bar chart:
 categories = ['A', 'B', 'C']
 values = [3, 7, 5]
 plt.bar(categories, values)
 plt.show()
 
-Histogram:
+# Histogram:
 data = [1, 2, 2, 3, 3, 3, 4, 5, 6]
 plt.hist(data)
 plt.show()
-
+```
