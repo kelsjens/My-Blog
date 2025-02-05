@@ -87,6 +87,7 @@ plt.show()
 ```
 
 This generates a basic line chart, ideal for showing relationships between two variables.
+![Basic Line Chart]("/_posts/simple_plot_1.jpeg")
 
 ### _Customizing Your Plot_
 Once you’ve created a basic plot, you can easily customize it:
@@ -104,6 +105,7 @@ plt.plot(x, y, linestyle='--', color='r')
 plt.grid(True)
 plt.show()
 ```
+![Full Basic Plot]("/_posts/basic_plot.jpeg")
 
 ### _Creating Other Types of Plots_
 Matplotlib supports a variety of plot types, including:
@@ -123,6 +125,8 @@ data = [1, 2, 2, 3, 3, 3, 4, 5, 6]
 plt.hist(data)
 plt.show()
 ```
+Below is an example of other things that you can create using Matplotlib as well as Numpy to make something look nice. 
+![Cool Example of Possible Plots]("/_posts/Cool_example.jpeg")
 
 # _Wrap Up_
 Python’s [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and [Matplotlib](https://matplotlib.org/) are essential tools for any data scientist, helping you analyze, manipulate, and visualize data with ease. Mastering these libraries will set a strong foundation for more advanced data science techniques.
