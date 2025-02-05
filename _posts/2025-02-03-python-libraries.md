@@ -6,10 +6,10 @@ description: Short yet informative description
 image: /assets/images/data_toolbox.jpg"
 ---
 ## _Introduction_
-Need a place to start your data science toolbox? Python is one of the best tools for working with data, but to really make the most of it, you need the right libraries. Three must-haves in any data scientist’s toolbox are pandas, numpy, and matplotlib. These libraries make it easy to clean and analyze data, run fast numerical calculations, and create visualizations that actually make sense. Whether you're sorting through messy datasets, crunching numbers, or bringing data to life with charts, these tools have you covered. In this post, we’ll break down what they do, why they’re useful, and how you can start using them right away. Lets get to it!
+Need a place to start your data science toolbox? Python is one of the best tools for working with data, but to really make the most of it, you need the right libraries. Three must-haves in any data scientist’s toolbox are [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and [Matplotlib](https://matplotlib.org/). These libraries make it easy to clean and analyze data, run fast numerical calculations, and create visualizations that actually make sense. Whether you're sorting through messy datasets, crunching numbers, or bringing data to life with charts, these tools have you covered. In this post, we’ll break down what they do, why they’re useful, and how you can start using them right away. Lets get to it!
 
 # _Pandas: A data analyzation and manipulation library_
-Pandas is one of the most widely used python libraries for handling data. It helps you read, explore, clean, and transform datasets with simple, efficient functions.
+[Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python) is one of the most widely used python libraries for handling data. It helps you read, explore, clean, and transform datasets with simple, efficient functions.
 
 ### _Reading in Data_
 Before working with data, we need to load it. Pandas makes this easy with functions like:
@@ -40,7 +40,7 @@ Pandas makes working with data fast and intuitive. let’s look at how NumPy hel
 
 
 # _NumPy: Numerical Computation_
-Numpy is a must know library that helps perform fast mathematical operations on large datasets. Using arrays it optimized the speed to do such computation. 
+[NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html) is a must know library that helps perform fast mathematical operations on large datasets. Using arrays it optimized the speed to do such computation. 
 
 ### _Creating Arrays_
 To start using NumPy, we first need to create arrays. Here's how you can do that:
@@ -72,7 +72,7 @@ With NumPy handling the number crunching, it's time to look into data visualizat
 
 
 # _Matplotlib: Visualizing useful data_
-Matplotlib is the go to library for any type of data visualization. The libraries allows you to make everything from basic line charts to complex scatter plots, histograms, and more. 
+[Matplotlib](https://matplotlib.org/) is the go to library for any type of data visualization. The libraries allows you to make everything from basic line charts to complex scatter plots, histograms, and more. 
 We will look over step by step how to create a simple plot and basic functions that help with that. 
 
 ### _Creating Your First Plot_
@@ -123,3 +123,8 @@ data = [1, 2, 2, 3, 3, 3, 4, 5, 6]
 plt.hist(data)
 plt.show()
 ```
+
+# _Wrap Up_
+Python’s [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and [Matplotlib](https://matplotlib.org/) are essential tools for any data scientist, helping you analyze, manipulate, and visualize data with ease. Mastering these libraries will set a strong foundation for more advanced data science techniques.
+
+Put your skills you just learned to the test! Try loading a dataset, exploring it with [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), performing calculations with [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and visualizing trends with Matplotlib[Matplotlib](https://matplotlib.org/) using the links on each of these topics. If you have questions or insights, share them in the comments—I’d love to hear your thoughts!
