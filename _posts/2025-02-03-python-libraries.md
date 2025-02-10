@@ -3,7 +3,7 @@ layout: post
 title:  "Your Data Science Toolbox: Need to Know Libraries in Python"
 author: Kelson Jensen
 description: Short yet informative description
-image: /assets/images/data_toolbox.jpg"
+image: "C:/Users/User/OneDrive/Documents/Winter 2025/Stat 386/My-Blog/assets/images/data_toolbox.jpg"
 ---
 ## _Introduction_
 Need a place to start your data science toolbox? Python is one of the best tools for working with data, but to really make the most of it, you need the right libraries. Three must-haves in any data scientist’s toolbox are [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and [Matplotlib](https://matplotlib.org/). These libraries make it easy to clean and analyze data, run fast numerical calculations, and create visualizations that actually make sense. Whether you're sorting through messy datasets, crunching numbers, or bringing data to life with charts, these tools have you covered. In this post, we’ll break down what they do, why they’re useful, and how you can start using them right away. Lets get to it!
@@ -87,8 +87,7 @@ plt.show()
 ```
 
 This generates a basic line chart, ideal for showing relationships between two variables.
-![Basic Line Chart]("/assets/images/simple_plot_1.jpeg")
-<img src="/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
+<img src="C:/Users/User/OneDrive/Documents/Winter 2025/Stat 386/My-Blog/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
 
 
 ### _Customizing Your Plot_
@@ -107,8 +106,7 @@ plt.plot(x, y, linestyle='--', color='r')
 plt.grid(True)
 plt.show()
 ```
-![Full Basic Plot]("/assets/images/basic_plot.jpeg")
-<img src="/assets/images/basic_plot.jpeg" alt="Full Basic Plot" width="300">
+<img src="C:\Users\User\OneDrive\Documents\Winter 2025\Stat 386\My-Blog\assets\images\basic_plot.png" alt="Full Basic Plot" width="300">
 
 
 ### _Creating Other Types of Plots_
@@ -130,7 +128,6 @@ plt.hist(data)
 plt.show()
 ```
 Below is an example of other things that you can create using Matplotlib as well as Numpy to make something look nice. 
-![Cool Example of Possible Plots]("/assets/images/Cool_example.jpeg")
 <img src="/assets/images/Cool_example.jpeg" alt="Cool Example of Possible Plots" width="300">
 
 
