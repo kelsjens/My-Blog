@@ -87,7 +87,7 @@ plt.show()
 ```
 
 This generates a basic line chart, ideal for showing relationships between two variables.
-<img src="C:/Users/User/OneDrive/Documents/Winter 2025/Stat 386/My-Blog/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
+<img src="/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
 
 
 ### _Customizing Your Plot_
@@ -106,7 +106,7 @@ plt.plot(x, y, linestyle='--', color='r')
 plt.grid(True)
 plt.show()
 ```
-<img src=/My-Blog/assets/images/basic_plot.jpg" alt="Full Basic Plot" width="300">
+<img src="/assets/images/basic_plot.jpg" alt="Full Basic Plot" width="300">
 
 
 ### _Creating Other Types of Plots_
