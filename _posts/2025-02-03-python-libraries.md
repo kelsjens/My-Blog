@@ -87,7 +87,7 @@ plt.show()
 ```
 
 This generates a basic line chart, ideal for showing relationships between two variables.
-<img src="/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
 
 
 ### _Customizing Your Plot_
@@ -106,7 +106,7 @@ plt.plot(x, y, linestyle='--', color='r')
 plt.grid(True)
 plt.show()
 ```
-<img src="/assets/images/basic_plot.jpg" alt="Full Basic Plot" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/basic_plot.jpg" alt="Full Basic Plot" width="300">
 
 
 ### _Creating Other Types of Plots_
@@ -128,10 +128,10 @@ plt.hist(data)
 plt.show()
 ```
 Below is an example of other things that you can create using Matplotlib as well as Numpy to make something look nice. 
-<img src="/assets/images/Cool_example.jpeg" alt="Cool Example of Possible Plots" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/Cool_example.jpeg" alt="Cool Example of Possible Plots" width="300">
 
 
 # _Wrap Up_
 Python’s [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and [Matplotlib](https://matplotlib.org/) are essential tools for any data scientist, helping you analyze, manipulate, and visualize data with ease. Mastering these libraries will set a strong foundation for more advanced data science techniques.
 
-Put your skills you just learned to the test! Try loading a dataset, exploring it with [Pandas](https://www.learnenough.com/blog/how-to-import-Pandas-in-python), performing calculations with [NumPy](https://numpy.org/doc/2.2/user/absolute_beginners.html), and visualizing trends with [Matplotlib](https://matplotlib.org/) using the links on each of these topics. If you have questions or insights, share them in the comments—I’d love to hear your thoughts!
+Put your skills you just learned to the test! Try loading a dataset, exploring it with Pandas, performing calculations with NumPy, and visualizing trends with Matplotlib using the links on each of these topics. If you have questions or insights, share them in the comments—I’d love to hear your thoughts!
