@@ -87,7 +87,7 @@ plt.show()
 ```
 
 This generates a basic line chart, ideal for showing relationships between two variables.
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/simple_plot_1.jpeg" alt="Basic Line Chart" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/simple_plot_1.jpg" alt="Basic Line Chart" width="300">
 
 
 ### _Customizing Your Plot_
@@ -128,7 +128,7 @@ plt.hist(data)
 plt.show()
 ```
 Below is an example of other things that you can create using Matplotlib as well as Numpy to make something look nice. 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/Cool_example.jpeg" alt="Cool Example of Possible Plots" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/Cool_example.jpg" alt="Cool Example of Possible Plots" width="300">
 
 
 # _Wrap Up_
