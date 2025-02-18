@@ -128,7 +128,7 @@ plt.hist(data)
 plt.show()
 ```
 Below is an example of other things that you can create using Matplotlib as well as Numpy to make something more intensive. It is a simple graph to help us understand the possibilities of what we can accomplish using Matplotlib.  
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/Cool_example.jpg" alt="Cool Example of Possible Plots" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/Cool_example.jpg" alt="Cool Example of Possible Plots" width="450">
 
 
 # _Wrap Up_
