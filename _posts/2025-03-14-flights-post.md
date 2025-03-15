@@ -38,7 +38,7 @@ The following chart shows what percentage of flights are delayed by each airline
 # _Day of the Week factor_
 When we decide to go somewhere we have to think about when we want to leave. Sometimes the day of the week can have a greater effect than you might think. In a general sense the best day to travel is you are looking to avoid delays you should look to travel on Sundays. However, this varies a lot based on what airline you may choose to travel with. Some of the things that we will look at is which airline is the best on which days. 
 This chart is a heatmap of the days of the week by airline and the average proportion of flights with delays over 25 minutes. 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/daysofweek_flights.jpg" alt="Days of the Week" width="500">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/dayofweek_flights.jpg" alt="Days of the Week" width="500">
 
 
 # _Conclusion_
