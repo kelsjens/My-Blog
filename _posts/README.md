@@ -1,0 +1,1 @@
+This repo has all the information for my Blog posts for my semester at BYU for a stats class. 
