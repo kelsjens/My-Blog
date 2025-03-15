@@ -8,7 +8,24 @@ image: "/assets/images/airplane.jpg"
 
 
 # _Introduction_
-How many of us have had our flights delayed in an airport? Is there anything more frustrating than wanting to go on an amazing trip and when you're about to leave your flight is delayed 1, 2, or maybe even 24 hours? In this post we will explore what airlines lead to the largest average time of delayed flights, what percentage of flights are delayed based on the airline, and we will explore what days of the week cause the most delayed flights. All of this data will be based on the month of May at the SLC airport in 2024. Lets find out some easier stress free ways to travel!
+How many of us have had our flights delayed in an airport? Is there anything more frustrating than wanting to go on an amazing trip and when you're about to leave your flight is delayed 1, 2, or maybe even 24 hours? In this post we will explore what airlines lead to the largest average time of delayed flights, what percentage of flights are delayed based on the airline, and we will explore what days of the week cause the most delayed flights. All of this data will be based on the month of May at the SLC airport in 2024. To find this data we will use an API and with that take categories such as date, minutes delayed, airline, days of the week, and more. Lets find out some easier stress free ways to travel!
+
+# _Data Collection_ 
+Creating this dataset involved a few key steps, which you can follow to build something similar:
+
+- Get API Access – I used the Aviation Edge API to pull flight data. You’ll need to sign up for an account and get an API key which I had to get from emailing them and getting one. They also told me this was also public data and useable.
+
+- Make API Requests – Using Python, I requested flight data for Salt Lake City (SLC) airport in May 2024. The API returned details like airline, scheduled time, actual time, and delay duration.
+
+- Clean the Data – The raw data included extra information, so I filtered it to only keep relevant columns like airline, expected time, actual time, and flight date. I also removed missing values.
+
+- Added Data - I took the times of expected and actual departure times and created a new variable that is called delay time that is the number of minutes of delay time from each flight. 
+
+- Save the Data – To avoid making repeated API requests, I saved the cleaned dataset as a CSV file for analysis.
+
+- Analyze Flight Delays – I explored which airlines had the longest average delays, what percentage of flights were delayed by more than 10 minutes, and how delays varied by day of the week.
+
+By doing this I was able to make an easy dataset with which I could run some EDA on what I wanted to know from the introduction.
 
 # _Airline Priority_ 
 Some of us greatly value a dependable airline that is going to take off at the right time which in turn gets us to our destination at the right time. This is greatly important to those that have small layovers or schedules to keep. Not all airlines are the same when it comes to how often or how long they are delayed. If you are looking for an airline with the smallest percentage of delayed flights and shortest delays it would be wise to avoid Hawaiian airlines. If you want reliability then your best bet is definitely Alaskan or Delta. 
