@@ -13,15 +13,15 @@ How many of us have had our flights delayed in an airport? Is there anything mor
 # _Airline Priority_ 
 Some of us greatly value a dependable airline that is going to take off at the right time which in turn gets us to our destination at the right time. This is greatly important to those that have small layovers or schedules to keep. Not all airlines are the same when it comes to how often or how long they are delayed. If you are looking for an airline with the smallest percentage of delayed flights and shortest delays it would be wise to avoid Hawaiian airlines. If you want reliability then your best bet is definitely Alaskan or Delta. 
 The chart below shows the average time of delay of a given airline. 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/average_delay_time.jpg" alt="Average Delay Time" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/average_delay_time.jpg" alt="Average Delay Time" width="500">
 
 The following chart shows what percentage of flights are delayed by each airline by 25 minutes or more. 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/percent_delayed.jpg" alt="Percentage of Delayed Flights" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/percent_delayed.jpg" alt="Percentage of Delayed Flights" width="500">
 
 # _Day of the Week factor_
 When we decide to go somewhere we have to think about when we want to leave. Sometimes the day of the week can have a greater effect than you might think. In a general sense the best day to travel is you are looking to avoid delays you should look to travel on Sundays. However, this varies a lot based on what airline you may choose to travel with. Some of the things that we will look at is which airline is the best on which days. 
 This chart is a heatmap of the days of the week by airline and the average proportion of flights with delays over 25 minutes. 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/daysofweek_flights.jpg" alt="Days of the Week" width="300">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/daysofweek_flights.jpg" alt="Days of the Week" width="500">
 
 
 # _Conclusion_
