@@ -11,7 +11,7 @@ image: "/assets/images/airplane.jpg"
 How many of us have had our flights delayed in an airport? Is there anything more frustrating than wanting to go on an amazing trip and when you're about to leave your flight is delayed 1, 2, or maybe even 24 hours? In this post we will explore what airlines lead to the largest average time of delayed flights, what percentage of flights are delayed based on the airline, and we will explore what days of the week cause the most delayed flights. All of this data will be based on the month of May at the SLC airport in 2024. To find this data we will use an API and with that take categories such as date, minutes delayed, airline, days of the week, and more. Lets find out some easier stress free ways to travel!
 
 # _Data Collection_ 
-Creating this dataset involved a few key steps, which you can follow to build something similar:
+Creating this dataset involved a few key steps, the API used was from [Aviation Edge](https://aviation-edge.com/)
 
 - Get API Access – I used the Aviation Edge API to pull flight data. You’ll need to sign up for an account and get an API key which I had to get from emailing them and getting one. They also told me this was also public data and useable.
 
@@ -43,3 +43,7 @@ This chart is a heatmap of the days of the week by airline and the average propo
 
 # _Conclusion_
 Looking at some of the things we learned from this. First, if you are looking for an airline that is going to give you the most assurance that your flight will be on time you should go with Alaskan airlines. Second, if you are thinking about the day of the week you want to travel, you should go with Sunday to encounter the least delays. The best case scenerio that you could find yourself in is going with Alaskan airlines on either a Monday or Wednesday. Lastly the worst case scenerio would be to book with Hawaiian airlines on a monday, which on average your flight will be delayed about 60% of the time. 
+
+
+
+This data was collected from [Aviation Edge](https://aviation-edge.com/). 
