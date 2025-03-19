@@ -2,7 +2,7 @@
 layout: post
 title:  "Exploration of Least Delayed Airlines"
 author: Kelson Jensen
-description: Flight Delays Make No Ones Days
+description: Flight Delays Make No Ones Days. A simple exploration on delayed flights out of SLC airport.
 image: "/assets/images/airplane.jpg"
 ---
 
