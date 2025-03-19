@@ -45,5 +45,5 @@ This chart is a heatmap of the days of the week by airline and the average propo
 Looking at some of the things we learned from this. First, if you are looking for an airline that is going to give you the most assurance that your flight will be on time you should go with Alaskan airlines. Second, if you are thinking about the day of the week you want to travel, you should go with Sunday to encounter the least delays. The best case scenerio that you could find yourself in is going with Alaskan airlines on either a Monday or Wednesday. Lastly the worst case scenerio would be to book with Hawaiian airlines on a monday, which on average your flight will be delayed about 60% of the time. 
 
 
-
+The code used for this post can be found on [My Github page](https://github.com/kelsjens/My-Blog/tree/main/_posts).
 This data was collected from [Aviation Edge](https://aviation-edge.com/). 
