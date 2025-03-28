@@ -27,7 +27,7 @@ Creating this dataset involved a few key steps, the API used was from [Aviation 
 
 - Analyze Flight Delays – I explored which airlines had the longest average delays, what percentage of flights were delayed by more than 10 minutes, and how delays varied by day of the week.
 
-By doing this I was able to make an easy dataset with which I could run some EDA on what I wanted to know from the introduction.
+By doing this I was able to make an easy dataset with which I could run some EDA on what I wanted to know from the introduction. The data is also public data that is open to access making all of the data ok to use. Ethically there are no issue with it. 
 
 # _Airline Priority_ 
 Some of us greatly value a dependable airline that is going to take off at the right time which in turn gets us to our destination at the right time. This is greatly important to those that have small layovers or schedules to keep. Not all airlines are the same when it comes to how often or how long they are delayed. If you are looking for an airline with the smallest percentage of delayed flights and shortest delays it would be wise to avoid Hawaiian airlines. If you want reliability then your best bet is definitely Alaskan or Delta. 
