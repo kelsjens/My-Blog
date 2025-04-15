@@ -27,7 +27,7 @@ Before I give away too many insights, I’ll stop here and let you explore the r
 # _Steam lit app_ 
 A great way to learn from data is to interact with it directly. That’s why I built a Streamlit app, a simple, interactive dashboard that lets you dive into the flight delay data on your own terms.
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/streamlit_app.jpg" alt="Streamlit App" width="500">
+<img src="{{site.url}}/{{site.baseurl}}/assets/images/Streamlit_app.jpg" alt="Streamlit App" width="500">
 On the left side, you'll find a dropdown menu with different views to explore. You can filter by airline, day of the week, or even combine multiple selections to compare trends side-by-side. This gives you the freedom to explore questions that matter most to you, whether you're curious about which airlines are most reliable on Fridays or how delays vary throughout the day.
 
 # _Data and Execution_ 
