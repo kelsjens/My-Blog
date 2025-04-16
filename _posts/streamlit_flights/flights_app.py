@@ -80,18 +80,47 @@ elif page == "Departure Time vs. Delay":
     st.pyplot(fig3)
 
 elif page == "Delay by Hour":
-    st.header("Average Delay by Hour")
+    st.header("Delay Time Exploration")
 
-    all_airlines = sorted(df['airline'].unique())
-    airline = st.sidebar.selectbox("Choose Airline", all_airlines)
+    tab1, tab2 = st.tabs(["📊 Average Delay by Hour", "📅 Average Delay by Day"])
 
-    df['Hour'] = df['scheduledTime'].dt.hour  # Add hour column if not already present
-    sub = df[df["airline"] == airline]
-    hourly = sub.groupby("Hour")["delay"].mean().reset_index()
+    with tab1:
+        all_airlines = sorted(df['airline'].unique())
+        airline = st.sidebar.selectbox("Choose Airline", all_airlines)
 
-    fig, ax = plt.subplots(figsize=(10, 6))
-    sns.lineplot(data=hourly, x="Hour", y="delay", marker="o", ax=ax)
-    ax.set_ylabel("Average Delay (minutes)")
-    ax.set_xlabel("Scheduled Hour of Day")
-    ax.set_xticks(range(0, 24))
-    st.pyplot(fig)
+        df['Hour'] = df['scheduledTime'].dt.hour  # Ensure Hour column exists
+        sub = df[df["airline"] == airline]
+        hourly = sub.groupby("Hour")["delay"].mean().reset_index()
+
+        fig1, ax1 = plt.subplots(figsize=(10, 6))
+        sns.lineplot(data=hourly, x="Hour", y="delay", marker="o", ax=ax1)
+        ax1.set_ylabel("Average Delay (minutes)")
+        ax1.set_xlabel("Scheduled Hour of Day")
+        ax1.set_xticks(range(0, 24))
+        st.pyplot(fig1)
+
+    with tab2:
+        st.subheader("Average Delay by Day")
+
+        # Add a date column for grouping
+        df['Date'] = df['scheduledTime'].dt.date
+        min_date = df['Date'].min()
+        max_date = df['Date'].max()
+
+        # Slider to select date range
+        start_date, end_date = st.slider(
+            "Select Date Range",
+            min_value=min_date,
+            max_value=max_date,
+            value=(min_date, max_date)
+        )
+
+        mask = (df['Date'] >= start_date) & (df['Date'] <= end_date)
+        daily_avg = df[mask].groupby("Date")["delay"].mean().reset_index()
+
+        fig2, ax2 = plt.subplots(figsize=(10, 6))
+        sns.lineplot(data=daily_avg, x="Date", y="delay", marker="o", ax=ax2)
+        ax2.set_ylabel("Average Delay (minutes)")
+        ax2.set_xlabel("Date")
+        fig2.autofmt_xdate()
+        st.pyplot(fig2)
