@@ -29,6 +29,7 @@ A great way to learn from data is to interact with it directly. That’s why I b
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/images/Streamlit_app.jpg" alt="Streamlit App" width="500">
 On the left side, you'll find a dropdown menu with different views to explore. You can filter by airline, day of the week, or even combine multiple selections to compare trends side-by-side. This gives you the freedom to explore questions that matter most to you, whether you're curious about which airlines are most reliable on Fridays or how delays vary throughout the day.
+This app can be found by clicking [here.](https://flights-app-kelsjens.streamlit.app/) 
 
 # _Data and Execution_ 
 This really is something anyone can do with the right steps and knowledge building a streamlit dashboard is quite simple and can help you explore data you are dealing with. I got this data from a website called Aviation Edge, where I got an API to begin my work. You can find that website and get your own API key [Here.](https://aviation-edge.com/) 
